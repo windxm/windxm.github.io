@@ -1,15 +1,11 @@
 
 /* Теги */
-body {
-    font-family: mazda;
-    background-color: black;    /* rgb(63, 49, 62); */
-    color: rgb(70, 71, 64);
-}
 
-header {
+
+h1 {
     background-color: rgb(29, 1, 61);
     color: rgb(213, 243, 214);
-    border-radius: .5em;
+    margin: 10px 0;
 }
 
 footer {
@@ -19,16 +15,30 @@ footer {
 
 /* Классы */
 
-.nav {
+/* .main-nav {
     background-color: rgb(48, 43, 37);
-    padding: 1em;
-    border-radius: .5em;
+    padding: 2px;
+} */
+
+.main-nav-ul {
+    margin-top: 20px;
+    padding-left: 2px;
 }
 
-.main {
-    background-color: rgb(16, 17, 17);
-    color: gray;
-    border-radius: .5em;
+.main-nav-ul li {
+    display: inline-block;
+}
+
+.main-nav-ul a {
+    color: greenyellow;
+    background-color: rgb(58, 19, 94);
+    padding: 5px;
+    border-radius: 2px;
+}
+
+
+.main-nav-ul a:hover {
+    font-weight: bold;
 }
 
 .sidebar {
@@ -40,10 +50,10 @@ footer {
 
 
 .widget a {
-    color: rgb(104, 90, 9);
+    color: rgb(104, 98, 9);
 
 }
 
 .widget a:hover {
-    color: red;
+    color: rgb(0, 255, 0);
 }

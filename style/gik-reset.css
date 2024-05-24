@@ -1,0 +1,37 @@
+/* gik-reset.css */
+
+@font-face {
+    font-family: "mazda";
+    src: url(fonts/Mazda.woff2);
+}
+
+:root {
+    font-family: mazda;
+    font-size: calc(0.5em + 1vw);
+    background-color: black;
+    color: gray;
+}
+
+body {
+    font-size: 0.5em;
+}
+
+::selection {
+    background-color: #dddaec;
+}
+a:link {
+    text-decoration: none;
+	color: #6e688b;
+}
+a:visited {
+    color: #6e688b;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
